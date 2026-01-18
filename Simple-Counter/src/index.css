@@ -1,0 +1,62 @@
+/* Page background */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #4e4e4e, #2f2f2f);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+div {
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #f2f2f2;
+  width: fit-content;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+h1 {
+  background: transparent;
+  width: 100%;
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Button */
+button {
+  margin: 10px auto;
+  background: linear-gradient(135deg, #6b8e23, #495625);
+  height: 50px;
+  width: 140px;
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Button click effect */
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
